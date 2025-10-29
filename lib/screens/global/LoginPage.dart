@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'Main_screen.dart';
+import '../../Main_screen.dart';
 import 'signup_page.dart';
 
 class LoginPage extends StatefulWidget {

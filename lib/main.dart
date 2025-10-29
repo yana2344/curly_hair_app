@@ -1,5 +1,5 @@
 import 'package:firebase_core/firebase_core.dart';
-import 'package:my_curly_app/login_page.dart';
+import 'package:my_curly_app/screens/global/LoginPage.dart';
 import 'firebase_options.dart';
 import 'package:flutter/material.dart';
 import 'package:my_curly_app/Main_screen.dart';
@@ -20,11 +20,12 @@ class CurlyHairApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'CurlyMe',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.deepPurple,
-        visualDensity: VisualDensity.adaptivePlatformDensity,
+       // visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: const MainScreen(),
+      home: const LoginPage(),
     );
   }
 }

@@ -19,11 +19,11 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBrK_VSAgDVbed5PDgtzk1g7e3tU9Ah0xA',
-    appId: '1:613941626393:android:6e2b9f4492767d59358c88',
-    messagingSenderId: '613941626393',
-    projectId: 'curlyapp-8edc3',
-    storageBucket: 'curlyapp-8edc3.firebasestorage.app',
+    apiKey: 'AIzaSyBkhqEwMHnq6S6y12W8IdVGZ0mIY2dZ4MQ',
+    appId: '1:282629680025:android:6ce4f517888a691db04108',
+    messagingSenderId: '282629680025',
+    projectId: 'haircurlyapp',
+    storageBucket: 'haircurlyapp.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(

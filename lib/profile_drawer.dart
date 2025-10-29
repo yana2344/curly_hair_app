@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:my_curly_app/custom_progress_bar.dart';
+import 'package:my_curly_app/components/custom_progress_bar.dart';
 
 class CurlyDrawer extends StatefulWidget {
   const CurlyDrawer({Key? key}) : super(key: key);

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-
 import 'package:my_curly_app/Main_screen.dart';
 
-import 'package:my_curly_app/main.dart';
+
+
 class HairTypeScreen extends StatelessWidget {
   final List<Map<String, String>> hairTypes = [
     {'name': '1A', 'image': 'assets/images/1a.jpg'},

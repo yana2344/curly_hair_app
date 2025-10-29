@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:my_curly_app/home_screen.dart';
-import 'package:my_curly_app/products_screen.dart';
-import 'package:my_curly_app/routines_screen.dart';
-import 'package:my_curly_app/forum_screen.dart';
-import 'package:my_curly_app/tips_screen.dart';
+import 'package:my_curly_app/screens/main/HomeScreen.dart';
+import 'package:my_curly_app/screens/main/ProductsScreen.dart';
+import 'package:my_curly_app/screens/main/RoutinesScreen.dart';
+import 'package:my_curly_app/screens/main/ForumScreen.dart';
+import 'package:my_curly_app/screens/main/TipsScreen.dart';
 import 'package:my_curly_app/profile_drawer.dart';
-import 'package:my_curly_app/choosing_windows//hair_type_screen.dart';
+
+
+
 class MainScreen extends StatefulWidget {
   const MainScreen({Key? key}) : super(key: key);
 
@@ -16,12 +18,12 @@ class MainScreen extends StatefulWidget {
 class _MainScreenState extends State<MainScreen> {
   int _selectedIndex = 0;
 
-  static  List<Widget> _screens = <Widget>[
-    HomeScreen(),
+  static  final List<Widget> _screens = <Widget>[
+    const HomeScreen(),
     RoutinesScreen(),
-    TipsScreen(),
-    ForumScreen(),
-    ProductsScreen(),
+    const TipsScreen(),
+    const ForumScreen(),
+    const ProductsScreen(),
   ];
 // hjj
   void _onItemTapped(int index) {
@@ -48,11 +50,7 @@ class _MainScreenState extends State<MainScreen> {
             label: 'Home',
           ),
           BottomNavigationBarItem(
-            icon: Image.asset(
-              'assets/images/girl.png',
-              width: 40,
-              height: 40,
-            ),
+            icon: Icon(Icons.type_specimen, color: Colors.purple),
             label: 'Routines',
           ),
           BottomNavigationBarItem(
